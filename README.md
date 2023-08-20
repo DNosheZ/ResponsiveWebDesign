@@ -18,3 +18,7 @@ A pretty look threesome of markers with fancy colors, styled in [this CSS archiv
 
 *******************************************************************************
 _Registration form_
+A registration form that send the recolected info to [a freeCodeCamp page](https://register-demo.freecodecamp.org)
+![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/1a92420b-d9f9-4a66-b8b0-5d8e9500318b)
+
+
