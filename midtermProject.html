@@ -10,10 +10,25 @@
     <p id="description"></p>
     <form id="survey-form">
       <fieldset>
-        <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text"/></label>
-        <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,0}" required/></label>
-        <label id="number-label" for="number">Enter Your Number: <input id="number" name="number" type="number" min="1" max="10" required/></label>
-
-
+        <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" placeholder="Nombre de Alguien"/></label>
+        <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,0}" placeholder="alguien@ejemplo.com" required/></label>
+        <label id="number-label" for="number">Enter Your Number: <input id="number" name="number" type="number" min="1" max="10" placeholder="+57 111 11111" required/></label>
+        <label for="">Mes de nacimiento: <select id="dropdown">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+    </form>
+    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
   </body>
 </html>
