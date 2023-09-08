@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="midtermProjectStyles.css" />
   </head>
   <body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <h1 id="title">Registration for your social account</h1>
+    <p id="description">Welcome to your new social page, here you can get inside your interest forums, without getting any annoying publicity</p>
     <form id="survey-form">
       <fieldset>
-        <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" placeholder="Nombre de Alguien"/></label>
+        <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" placeholder="Nombre de Alguien" required/></label>
         <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,0}" placeholder="alguien@ejemplo.com" required/></label>
         <label id="number-label" for="number">Enter Your Number: <input id="number" name="number" type="number" min="1" max="10" placeholder="+57 111 11111" required/></label>
         <label for="">Mes de nacimiento: <select id="dropdown">
@@ -28,25 +28,28 @@
             <option value="12">Diciembre</option>
         </select>
     </form>
-    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
+    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="Personal"/> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="Business"/> Business Account</label>
         <h4>Comida de preferencia</h4>
         <label for="hamburguer">
           Hamburguer
-          <input id="hamburguer" type="checkbox" required name="food-taste" class="inline" >
+          <input id="hamburguer" type="checkbox" required name="food-taste" class="inline" value="Hamburguer">
         </label>
         <label for="pizza">
           Pizza
-          <input id="pizza" type="checkbox" required name="food-taste" class="inline">
+          <input id="pizza" type="checkbox" required name="food-taste" class="inline" value="Pizza">
         </label>
         <label for="hot-dog">
           Hot Dog
-          <input id="hot-dog" type="checkbox" required name="food-taste" class="inline" >
+          <input id="hot-dog" type="checkbox" required name="food-taste" class="inline" value="Hot Dog">
         </label>
         <label for="pasta">
           Pasta
-          <input id="pasta" type="checkbox" required name="food-taste" class="inline">
+          <input id="pasta" type="checkbox" required name="food-taste" class="inline" value="Pasta">
         </label>
+<textarea id="aditional2" placeholder="what do you expect from us?"></textarea>
+<textarea id="aditional1" placeholder="any sugestion?"></textarea>
+        <button id="submit">Submit</button>
       </form>
   </body>
 </html>
