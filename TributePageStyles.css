@@ -2,9 +2,15 @@
   text-align:center;
   color:#EEDD0B;
 }
-#img-div{
-}
 #rev-ital{
   font-size:13px;
   color:#AFAA78;
+}
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+#img-div{
+  text-align:center;
 }
