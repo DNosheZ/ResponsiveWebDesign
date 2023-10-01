@@ -3,23 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="TechnicalDocSstyles.css">
   </head>
   <body>
     <main id="main-doc">
       <section class="main-section" id="introduction">
         <header>Introduction</header>
+        <h1>Introduction</h1>
+        <p>Python is a high level general-purpose programming language. It uses a multi-paradigm approach, meaning it supports procedural, object-oriented, and some functional programming constructs.
+
+It was created by Guido van Rossum as a successor to another language (called ABC) between 1985 and 1990, and is currently used on a large array of domains like web development, desktop applications, data science, DevOps, and automation/productivity.
+
+Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use. Python's license is administered by the Python Software Foundation.</p>
+<h5>Taked by <a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">mdn web docs</a></h5>
       </section>
-      <section class="main-section" id="already-know">
-        <header>What you shold already know</header>
-        <p></p>
-      </section>
-      <section class="main-section" id="javascript-and-java">
-        <header>Javascript and Java</header>
-        <p></p>
-      </section>
-      <section class="main-section" id="hello-world">
+      <section class="main-section" id="hello">
         <header>Hello World</header>
-        <p></p>
+        <h1>Hello World</h1>
+        <h3>Execute Python Syntax</h3>
+        <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
+<code>
+  print("Hello, World!")<br/>
+  Hello, World!
+</code>
+<p>Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:</p>
+<code>C:\Users\Your Name>python myfile.py</code>
+<hr/>
+<h3>Python Indentation</h3>
+<p>Indentation refers to the spaces at the beginning of a code line.
+
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+
+Python uses indentation to indicate a block of code.</p>
+<code>if 5 > 2:<br/><span id="identation">--</span>print("Five is greater than two!")</code>
+  <p>Python will give you an error if you skip the indentation:</p>
+
+<code>
+if 5 > 2:<br/>
+print("Five is greater than two!")
+</code>
+<p>The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one.</p>
+<code>
+  if 5 > 2:<br/><span id="identation">--</span>
+ print("Five is greater than two!")<br/> 
+if 5 > 2:<br/><span id="identation">--</span>
+<span id="identation">--</span>print("Five is greater than two!") 
+</code>
       </section>
       <section class="main-section" id="varibles">
         <header>Variables</header>
