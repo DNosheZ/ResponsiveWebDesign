@@ -21,7 +21,7 @@ A pretty look threesome of markers with fancy colors, styled in [this CSS archiv
 
 *******************************************************************************
 _Registration form_
-A registration form that send the recolected info to [a freeCodeCamp page](https://register-demo.freecodecamp.org)
+A registration form that send the recolected info to [a freeCodeCamp page](https://register-demo.freecodecamp.org).
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/1a92420b-d9f9-4a66-b8b0-5d8e9500318b)
 
 *******************************************************************************
@@ -31,19 +31,19 @@ _Final project_
 
 *******************************************************************************
 _Flexbox cat photo gallery_
-A cat photo gallery with flexbox attributes given from [a CSS archive](https://github.com/DNosheZ/freeCodeCamp/blob/main/catPhotoFlexboxStyles.css) to 
-the [HTML index](https://github.com/DNosheZ/freeCodeCamp/blob/main/catPhotoFlexboxIndex.html)
+A cat photo gallery with flexbox attributes given from [a CSS archive](https://github.com/DNosheZ/freeCodeCamp/blob/main/catPhotoFlexboxStyles.css). to 
+the [HTML index](https://github.com/DNosheZ/freeCodeCamp/blob/main/catPhotoFlexboxIndex.html).
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/f92dc3b6-26be-4a73-beec-3627ff23e7cf)
 
 
 *******************************************************************************
 _Rothko Paint stylized with CSS_
-A Rothko paint based on (a HTML)[https://github.com/DNosheZ/freeCodeCamp/blob/main/RothkoPaintIndex.html] and stylized with (CSS)[https://github.com/DNosheZ/freeCodeCamp/blob/main/RothkoPaintStyles.css]
+A Rothko paint based on [a HTML](https://github.com/DNosheZ/freeCodeCamp/blob/main/RothkoPaintIndex.html) and stylized with [CSS](https://github.com/DNosheZ/freeCodeCamp/blob/main/RothkoPaintStyles.css)
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/e9d42abd-ee12-4b6d-b18a-cb76e154fbdd)
 
 
 *******************************************************************************
 _Nutrition table for a HTML product_
-A nutrition table that can be used to give a extensive explanation about a (HTML product)[https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsIndex.html], giving to it (CSS styles)[https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsStyles.css] to make it has a tangible alimentary good.
+A nutrition table that can be used to give a extensive explanation about a [HTML product](https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsIndex.html), giving to it [CSS styles](https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsStyles.css) to make it has a tangible alimentary good.
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/781ba20f-f5b0-4b8e-bfa6-fc958b63feac)
 
