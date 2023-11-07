@@ -40,3 +40,9 @@ ul.nav-list li {
   padding: 20px;
   margin-bottom: 110px;
 }
+.main-section {
+  display: none;
+}
+:target {
+  display: block;
+}
