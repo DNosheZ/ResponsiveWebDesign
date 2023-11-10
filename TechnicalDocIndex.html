@@ -50,7 +50,7 @@
     </div>
     <main id="main-doc">
       <section class="main-section" id="Introduction">
-        <header>Introduction</header>
+        <header><h1>Introduction</h1></header>
         <p>Python is a high level general-purpose programming language. It uses a multi-paradigm approach, meaning it supports procedural, object-oriented, and some functional programming constructs.
 
 It was created by Guido van Rossum as a successor to another language (called ABC) between 1985 and 1990, and is currently used on a large array of domains like web development, desktop applications, data science, DevOps, and automation/productivity.
@@ -59,7 +59,7 @@ Python is developed under an OSI-approved open source license, making it freely 
 <h5>Taked by <a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">mdn web docs</a></h5>
       </section>
       <section class="main-section" id="Hello_World">
-        <header>Hello World</header>
+        <header><h1>Hello World<h1></header>
         <h3>Execute Python Syntax</h3>
         <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
 <code>
@@ -76,19 +76,19 @@ Where in other programming languages the indentation in code is for readability 
 
 Python uses indentation to indicate a block of code.</p>
 <ul>
-  <li>
+  <li id="content-li">
     <code>if 5 > 2:<br/><span id="identation">--</span>print("Five is greater than two!")</code>
   </li>
-  <li>
+  <li id="content-li">
     <p>Python will give you an error if you skip the indentation:</p>
   </li>
-  <li>
+  <li id="content-li">
     <code>
 if 5 > 2:<br/>
 print("Five is greater than two!")
 </code>
   </li>
-  <li>
+  <li id="content-li">
     <p>The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one.</p>
     </li>
   <li>
@@ -101,102 +101,127 @@ if 5 > 2:<br/><span id="identation">--</span>
 </ul>
       </section>
       <section class="main-section" id="Declaring_variables">
-        <header>Declaring variables</header>
+        <header><h1>Declaring variables</h1></header>
         <p></p>
         <ul>
-          <li>Python Variable is containers that store values. Python is not “statically typed”. We do not need to declare variables before using them or declare their type. A variable is created the moment we first assign a value to it. A Python variable is a name given to a memory location. It is the basic unit of storage in a program.</li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li">Python Variable is containers that store values. Python is not “statically typed”. We do not need to declare variables before using them or declare their type. A variable is created the moment we first assign a value to it. A Python variable is a name given to a memory location. It is the basic unit of storage in a program.</li>
+          <li id="content-li">
+            <h2>Example</h2>
+            <p>An Example of a Variable in Python is a representational name that serves as a pointer to an object.</p>
+            <code>Var = "Lucid Dreams"</br>
+              print(Var)
+            </code>
+            </br>
+            <p>
+              In this example we can se that the variable called Var have has value the string Lucid Dreams, that may be used after, in the moment we want or need it.
+            </p>
+          </li>
+          <li>
+            <h2></h2>
+          </li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Variable_scope">
-        <header>Variable scope</header>
-        <p></p>
+        <header><h1>Variable scope</h1></header>
+        <p>In Python, we can declare variables in three different scopes: local scope, global, and nonlocal scope.</p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li">A variable scope specifies the region where we can access a variable. For example,<br/>
+<code>
+def add_numbers():<br/>
+    sum = 5 + 4
+</code><br/>
+Here, the sum variable is created inside the function, so it can only be accessed within it (local scope). This type of variable is called a local variable.
+
+Based on the scope, we can classify Python variables into three types:
+<ul>
+  <li id="listing-types">Local Variables</li>
+  <li id="listing-types">Global Variables</li>
+  <li id="listing-types">Nonlocal Variables</li>
+</ul>
+</li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Global_variable">
         <header>Global variable</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Constants">
         <header>Constants</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Data_types">
         <header>Data types</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="if_else_statement">
         <header>if else statement</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="While_statement">
         <header>While statement</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Function_declarations">
         <header>Function declarations</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
       <section class="main-section" id="Reference">
         <header>Reference</header>
         <p></p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
+          <li id="content-li"></li>
         </ul>
       </section>
     </main>
