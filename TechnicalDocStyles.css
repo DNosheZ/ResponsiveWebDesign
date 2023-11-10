@@ -16,7 +16,7 @@ code{
 
 #navbar {
   position: fixed;
-  width: 300px;
+  width: 300px; /* This is the width of the navbar */
   height: 100%;
 }
 
@@ -41,5 +41,9 @@ code{
 }
 
 :target {
-  display: block; 
+  display: block;
 }
+li{
+  list-style-type: none;
+}
+
