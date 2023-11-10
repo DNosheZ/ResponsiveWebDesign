@@ -43,7 +43,9 @@ code{
 :target {
   display: block;
 }
-li{
+#content-li{
   list-style-type: none;
 }
-
+#listing-types{
+  list-style-type:decimal;
+}
