@@ -49,3 +49,6 @@ code{
 #listing-types{
   list-style-type:decimal;
 }
+#listing-with-dots{
+  list-style-type:disc;
+}
