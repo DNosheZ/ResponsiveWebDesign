@@ -16,7 +16,7 @@ code{
 
 #navbar {
   position: fixed;
-  width: 300px; /* This is the width of the navbar */
+  width: 300px;
   height: 100%;
 }
 
@@ -51,4 +51,10 @@ code{
 }
 #listing-with-dots{
   list-style-type:disc;
+}
+@media screen and (max-height: 50vh) {
+  #main-doc {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
