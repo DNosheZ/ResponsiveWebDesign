@@ -31,18 +31,6 @@
             <a href="#Constants" class="nav-link">Constants</a>
           </li>
           <li>
-            <a href="#Data_types" class="nav-link">Data types</a>
-          </li>
-          <li>
-            <a href="#if_else_statement" class="nav-link">if else statement</a>
-          </li>
-          <li>
-            <a href="#While_statement" class="nav-link">While statement</a>
-          </li>
-          <li>
-            <a href="#Function_declarations" class="nav-link">Function declarations</a>
-          </li>
-          <li>
             <a href="#Reference" class="nav-link">Reference</a>
           </li>
         </ul>
@@ -168,10 +156,49 @@ Based on the scope, we can classify Python variables into three types:
   <li id="listing-types">Nonlocal Variables</li>
 </ul>
 </li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
+          <li id="content-li">
+            <h2>Python Local Variables</h2>
+            <p>
+  When we declare variables inside a function, these variables will have a local scope (within the function). We cannot access them outside the function.<p>
+          </li>
+          <li id="content-li">
+            <h2>Python Global Variables</h2>
+            <p>
+In Python, a variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.
+
+Let's see an example of how a global variable is created in Python.
+            </p>
+          </li>
+          <li id="content-li">
+            <h2>Python Nonlocal Variables</h2>
+            <p>
+In Python, nonlocal variables are used in nested functions whose local scope is not defined. This means that the variable can be neither in the local nor the global scope.
+
+We use the nonlocal keyword to create nonlocal variables.For example,
+            </p>
+            <code>
+              # outside function<br/>
+def outer():<br/>
+--message = 'local'<br/>
+
+--# nested function  <br/>
+--def inner():<br/>
+
+----# declare nonlocal variable<br/>
+-----nonlocal message<br/>
+
+------message = 'nonlocal'<br/>
+-------print("inner:", message)<br/>
+
+---inner()<br/>
+--print("outer:", message)<br/>
+
+outer()
+            </code>
+          </li>
+          <li id="content-li">
+            Info provided by <a href="https://www.programiz.com/python-programming/global-local-nonlocal-variables" target="_blank">Programiz</a>
+          </li>
         </ul>
       </section>
       <section class="main-section" id="Global_variable">
@@ -187,50 +214,6 @@ Based on the scope, we can classify Python variables into three types:
       </section>
       <section class="main-section" id="Constants">
         <header>Constants</header>
-        <p></p>
-        <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-        </ul>
-      </section>
-      <section class="main-section" id="Data_types">
-        <header>Data types</header>
-        <p></p>
-        <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-        </ul>
-      </section>
-      <section class="main-section" id="if_else_statement">
-        <header>if else statement</header>
-        <p></p>
-        <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-        </ul>
-      </section>
-      <section class="main-section" id="While_statement">
-        <header>While statement</header>
-        <p></p>
-        <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-        </ul>
-      </section>
-      <section class="main-section" id="Function_declarations">
-        <header>Function declarations</header>
         <p></p>
         <ul>
           <li id="content-li"></li>
