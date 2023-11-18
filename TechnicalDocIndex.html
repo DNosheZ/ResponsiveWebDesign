@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="TechnicalDocStyles.css">
+    <link rel="stylesheet" href="TechnicalDoctyles.css">
   </head>
   <body>
     <div class="container">
@@ -44,7 +44,6 @@
 It was created by Guido van Rossum as a successor to another language (called ABC) between 1985 and 1990, and is currently used on a large array of domains like web development, desktop applications, data science, DevOps, and automation/productivity.
 
 Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use. Python's license is administered by the Python Software Foundation.</p>
-<h5>Taked by <a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">mdn web docs</a></h5>
       </section>
       <section class="main-section" id="Hello_World">
         <header><h1>Hello World<h1></header>
@@ -197,19 +196,83 @@ outer()
             </code>
           </li>
           <li id="content-li">
-            Info provided by <a href="https://www.programiz.com/python-programming/global-local-nonlocal-variables" target="_blank">Programiz</a>
+            
           </li>
         </ul>
       </section>
       <section class="main-section" id="Global_variable">
         <header>Global variable</header>
-        <p></p>
+        <p>
+          Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+
+Global variables can be used by everyone, both inside of functions and outside.
+        </p>
         <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
+          <li id="content-li">
+            Example
+            
+Create a variable outside of a function, and use it inside the function
+<code>
+x = "awesome"
+</br>
+def myfunc():</br>
+<span></span>print("Python is " + x)
+</br>
+myfunc()
+</code>
+          </li>
+          <li id="content-li">
+            If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+          </li>
+          <li id="content-li">
+            Example
+Create a variable inside a function, with the same name as the global variable
+<code>
+x = "awesome"
+</br>
+def myfunc():</br>
+<span></span>x = "fantastic"</br>
+<span></span>print("Python is " + x)
+</br>
+myfunc()
+
+print("Python is " + x)
+</code>
+          </li>
+          <li id="content-li">
+            <h3>The global Keyword</h3>
+Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+
+To create a global variable inside a function, you can use the global keyword.
+
+Example
+If you use the global keyword, the variable belongs to the global scope:
+<code>
+def myfunc():</br>
+<span></span>global x</br>
+<span></span>x = "fantastic"
+</br>
+myfunc()
+</br>
+print("Python is " + x)
+</code>
+Also, use the global keyword if you want to change a global variable inside a function.
+          </li>
+          <li id="content-li">
+            Example
+To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+<code>
+x = "awesome"
+</br>
+def myfunc():</br>
+<span></span>global x</br>
+<span></span>x = "fantastic"</br>
+
+myfunc()
+</br>
+print("Python is " + x)
+</code>
+          </li>
         </ul>
       </section>
       <section class="main-section" id="Constants">
@@ -224,14 +287,32 @@ outer()
         </ul>
       </section>
       <section class="main-section" id="Reference">
-        <header>Reference</header>
+        <header>References</header>
         <p></p>
         <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
+          <li id="content-li">
+            Introduction info gets from<a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">mdn web docs</a></a>
+          </li>
+          </br>
+          <li id="content-li">
+            Hello world info gets from<a href="http://mcatutorials.com/mca-tutorials-basic-syntax.php">Mcatutoriales</a>
+          </li>
+          </br>
+          <li id="content-li">
+            Declaring variables info gets from <a href="https://www.geeksforgeeks.org/python-variables/">GeeksfromGeeks</a>
+          </li>
+          </br>
+          <li id="content-li">
+            Variable scope info gets from <a href="https://www.programiz.com/python-programming/global-local-nonlocal-variables">Programiz</a>
+          </li>
+          </br>
+          <li id="content-li">
+            Constants info gets from <a href="https://www.programiz.com/python-programming/global-local-nonlocal-variables" target="_blank">Programiz</a>
+          </li>
+          </br>
+          <li id="content-li">
+            Global variable info gets from <a href="https://www.w3schools.com/python/python_variables_global.asp"></a>
+          </li>
         </ul>
       </section>
     </main>
