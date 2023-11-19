@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="TechnicalDoctyles.css">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="container">
@@ -277,10 +277,38 @@ print("Python is " + x)
       </section>
       <section class="main-section" id="Constants">
         <header>Constants</header>
-        <p></p>
+        <p>
+A constant is a type of variable that holds values that cannot be changed. In reality, we rarely use constants in Python. Constants are usually declared and assigned to a different module/file.
+</p>
         <ul>
-          <li id="content-li"></li>
-          <li id="content-li"></li>
+          <li id="content-li">
+            Example:</br>
+<code>
+#Declare constants in a separate file called</br> constant.py</br>
+PI = 3.14</br>
+GRAVITY = 9.8</br>
+</code>
+Then, they are imported to the main file.
+</br>
+<code>
+#inside main.py we import the constants</br>
+import constant</br>
+print(constant.PI)</br>
+print(constant.GRAVITY)</br>
+</code>
+          </li>
+          <li id="content-li">
+            <h3>Python Class Variables</h3>
+In Python, a class variable is shared by all the object instances of the class. They are declared when the class is constructed and not in any of the methods of the class. Since in Python, these class variables are owned by the class itself, they are shared by all instances of that class.
+</br>
+<code>
+class languages:
+</br>
+ lang_name = “python”</br>
+</br>
+</code>
+Here, the variable lang_name is given the value “python”.
+          </li>
           <li id="content-li"></li>
           <li id="content-li"></li>
           <li id="content-li"></li>
@@ -311,8 +339,9 @@ print("Python is " + x)
           </li>
           </br>
           <li id="content-li">
-            Global variable info gets from <a href="https://www.w3schools.com/python/python_variables_global.asp"></a>
+            Global variable info gets from <a href="https://www.w3schools.com/python/python_variables_global.asp">W3Schools</a>
           </li>
+          <li id="content-li">Constants info gets from <a href="https://intellipaat.com/blog/tutorial/python-tutorial/python-variables/#no3">Intellipaat</a></li>
         </ul>
       </section>
     </main>
