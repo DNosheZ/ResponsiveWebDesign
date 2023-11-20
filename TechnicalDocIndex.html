@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="TechnicalDocStyles.css">
   </head>
   <body>
     <div class="container">
@@ -133,7 +133,7 @@ if 5 > 2:<br/><span id="identation">--</span>
             </ul>
           </li>
           <li id="content-li">
-            Info provided by <a href="https://www.geeksforgeeks.org/python-variables/" target="_blank">GeeksforGeeks</a>
+            
           </li>
         </ul>
       </section>
@@ -144,7 +144,7 @@ if 5 > 2:<br/><span id="identation">--</span>
           <li id="content-li">A variable scope specifies the region where we can access a variable. For example,<br/>
 <code>
 def add_numbers():<br/>
-    sum = 5 + 4
+<span id="identation">--</span>sum = 5 + 4
 </code><br/>
 Here, the sum variable is created inside the function, so it can only be accessed within it (local scope). This type of variable is called a local variable.
 
@@ -178,19 +178,19 @@ We use the nonlocal keyword to create nonlocal variables.For example,
             <code>
               # outside function<br/>
 def outer():<br/>
---message = 'local'<br/>
+<span id="identation">--</span>message = 'local'<br/>
 
-<span></span># nested function  <br/>
-<span></span>def inner():<br/>
+--# nested function  <br/>
+--def inner():<br/>
 
-<span></span># declare nonlocal variable<br/>
-<span></span>nonlocal message<br/>
+<span id="identation">----</span># declare nonlocal variable<br/>
+<span id="identation">-----</span>nonlocal message<br/>
 
-<span></span>message = 'nonlocal'<br/>
-<span></span>print("inner:", message)<br/>
+<span id="identation">------</span>message = 'nonlocal'<br/>
+<span id="identation">-------</span>print("inner:", message)<br/>
 
-<span></span>inner()<br/>
-<span></span>print("outer:", message)<br/>
+<span id="identation">---</span>inner()<br/>
+<span id="identation">--</span>print("outer:", message)<br/>
 
 outer()
             </code>
@@ -216,7 +216,7 @@ Create a variable outside of a function, and use it inside the function
 x = "awesome"
 </br>
 def myfunc():</br>
-<span></span>print("Python is " + x)
+<span id="identation">--</span>print("Python is " + x)
 </br>
 myfunc()
 </code>
@@ -231,8 +231,8 @@ Create a variable inside a function, with the same name as the global variable
 x = "awesome"
 </br>
 def myfunc():</br>
-<span></span>x = "fantastic"</br>
-<span></span>print("Python is " + x)
+<span id="identation">--</span>x = "fantastic"</br>
+<span id="identation">--</span>print("Python is " + x)
 </br>
 myfunc()
 
@@ -249,8 +249,8 @@ Example
 If you use the global keyword, the variable belongs to the global scope:
 <code>
 def myfunc():</br>
-<span></span>global x</br>
-<span></span>x = "fantastic"
+<span id="identation">--</span>global x</br>
+<span id="identation">--</span>x = "fantastic"
 </br>
 myfunc()
 </br>
@@ -265,8 +265,8 @@ To change the value of a global variable inside a function, refer to the variabl
 x = "awesome"
 </br>
 def myfunc():</br>
-<span></span>global x</br>
-<span></span>x = "fantastic"</br>
+<span id="identation">--</span>global x</br>
+<span id="identation">--</span>x = "fantastic"</br>
 
 myfunc()
 </br>
@@ -275,7 +275,7 @@ print("Python is " + x)
           </li>
         </ul>
       </section>
-      <section class="main-section" id="Constants"> <header><h1>Constants</h1></header>
+      <section class="main-section" id="Constants"> <header><h3>Constants</h3></header>
         <p>
 A constant is a type of variable that holds values that cannot be changed. In reality, we rarely use constants in Python. Constants are usually declared and assigned to a different module/file.
 </p>
@@ -303,7 +303,7 @@ In Python, a class variable is shared by all the object instances of the class. 
 <code>
 class languages:
 </br>
- lang_name = “python”</br>
+<span id="identation">--</span>lang_name = “python”</br>
 </br>
 </code>
 Here, the variable lang_name is given the value “python”.
@@ -314,7 +314,7 @@ Here, the variable lang_name is given the value “python”.
         </ul>
       </section>
       <section class="main-section" id="Reference">
-        <header><h1>Reference<h1></header>
+        <header>Reference</header>
         <p></p>
         <ul>
           <li id="content-li">
