@@ -1,16 +1,33 @@
-#title{
-  text-align:center;
-  color:#EEDD0B;
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#rev-ital{
-  font-size:13px;
-  color:#AFAA78;
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-#image{
-  max-width:100%;
-  height:auto;
-  display:block;
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 10px;
 }
-#img-div{
-  text-align:center;
+a{
+    text-decoration:none;
+    color:black;
+}
+section {
+  display: none;
+}
+
+:target {
+  display: block;
+}
+#form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
