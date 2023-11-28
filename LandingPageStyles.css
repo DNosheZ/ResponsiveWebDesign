@@ -47,3 +47,14 @@ section {
   align-items: center;
   text-align: center;
 }
+.iframediv{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+iframe {
+  /* Additional iframe styles (optional) */
+  bordzer: none; /* Example to remove border */
+}
