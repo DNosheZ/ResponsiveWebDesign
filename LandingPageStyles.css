@@ -1,11 +1,19 @@
-.nav-list {
-    white-space: nowrap;
-    position:relative;
-    left:215px;
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 .nav-list li {
-    display: inline-block;
-    margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
 }
 a{
     text-decoration:none;
@@ -17,4 +25,25 @@ section {
 
 :target {
   display: block;
+}
+#form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#prices {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.price {
+  flex-basis: 30%;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
