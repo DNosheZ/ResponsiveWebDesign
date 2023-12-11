@@ -62,3 +62,9 @@ section {
     display: flex;
     justify-content:center;
 }
+
+@media screen and (max-width: 768px) {
+  .price {
+    flex-basis: 100%; 
+  }
+}
