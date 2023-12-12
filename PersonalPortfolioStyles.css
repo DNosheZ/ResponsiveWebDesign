@@ -1,0 +1,64 @@
+#head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #711DB0;
+  z-index:1000;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav-link{
+text-decoration:none;
+color:black;
+}
+#hi{
+   margin-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+#reliable,#heres{
+    display: flex;
+    justify-content:center;
+}
+#some-projects-view{
+   margin: 0px;
+   padding-top:8%;
+    display: flex;
+    justify-content:center;
+}
+#welcome-section{
+  background-color:#C21292;
+  width:100%;
+  height:60%;
+}
+#projects{
+  background-color:#EF4040;
+}
+#lets-work-together{
+  background-color:#FFA732;
+}
+.nav-list2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list2 li {
+  display: inline-block;
+  margin-right: 10px;
+}
