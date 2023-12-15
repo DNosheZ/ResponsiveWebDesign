@@ -37,8 +37,8 @@ color:black;
 #some-projects-view{
    margin: 0px;
    padding-top:8%;
-    display: flex;
-    justify-content:center;
+   display: flex;
+   justify-content:center;
 }
 #welcome-section{
   background-color:#C21292;
@@ -48,8 +48,18 @@ color:black;
 #projects{
   background-color:#EF4040;
 }
+.projects-row{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 #lets-work-together{
   background-color:#FFA732;
+}
+#lwt h2, #lwt h3{
+  display: flex;
+  justify-content:center;
 }
 .nav-list2 {
   list-style-type: none;
