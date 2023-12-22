@@ -1,163 +1,126 @@
-:root {
-  --main-violet: #711DB0;
-  --main-pink: #C21292;
-  --main-orange: #EF4040;
-  --main-gray:#303841;
-  --main-yellow: #FFA732;
-}
-@font-face {
-  font-family: 'Rubik Broken Fax';
-  src: url('/RubikBrokenFax-Regular.ttf');
-}
-
-body{
-  width:100%;
-  margin:0;
-  font-weight: 400;
-  line-height: 1.4;
-}
-#head{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 8%;
-  background-color: var(--main-violet);
-  z-index:1000;
-  font-family: 'Rubik Broken Fax';
-}
-.nav-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-list li {
-  display: inline-block;
-  margin-right: 10px;
-}
-.btn{
-text-decoration:none;
-color:black;
-}
-#welcome-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, var(--main-pink) 0%, #181719 100%);
-}
-#hi{
-   margin-top: 50px;
-    display: flex;
-    justify-content:center;
-    font-family: 'Rubik Broken Fax'
-}
-#reliable,#heres,#some-projects-view, #heres{
-    display: flex;
-    justify-content:center;
-}
-#heres{
-  
-  font-family: 'Rubik Broken Fax'
-}
-#some-projects-view{
-   margin: 0px;
-   padding-top:8%;
-   font-family: 'Rubik Broken Fax';
-}
-
-#projects, #welcome-section, #lets-work-together {
-  width: 100%;
-  padding-top: 5%;
-}
-#reliable,#coffee{
-color:white;
-}
-#projects{
-  background-color:var(--main-orange);
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-}
-.projects-grid{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  text-align: center;
-  width:100%;
-}
-.project-tile{
-margin:1% 8%;
-background-color: var(--main-yellow);
-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-border-radius: 2px;
-}
-.link-img{
-  height: calc(100% - 6.8rem);
-  width: 100%;
-  object-fit: cover;
-}
-.corc{
-  display:none;
-  color:white;
-  transition: color 0.3s ease-out;
-  margin:0;
-  padding:0;
-}
-.project-tile:hover .corc {
-  display: block;
-}
-.btn-show-all {
-  font-size: 2rem;
-  background: var(--main-gray);
-  display: flex;
-  justify-content:center;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-  width:15%;
-  height:7%;
-  color:white;
-  font-family: 'Rubik Broken Fax';
-}
-#lets-work-together{
-  background-color:var(--main-yellow);
-}
-#lwt h2, #lwt h3{
-  display: flex;
-  justify-content:center;
-}
-#lwt h2{
-  font-family: 'Rubik Broken Fax';
-}
-.nav-list2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  font-family:'Rubik Broken Fax';
-}
-
-.nav-list2 li {
-  display: inline-block;
-  margin-right: 10px;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-      --main-violet: #562D88;
-      --main-pink: #8E0E6A;
-      --main-orange: #B03030;
-      --main-gray: #1E252B;
-      --main-yellow: #CC8400;
-  }
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header id="head">
+      <img id="header-img" src=""></img>
+      <nav id="navbar">
+        <ul class="nav-list">
+          <li>
+            <a href="#Education" class="btn nav-link">Education</a>
+          </li>
+          <li>
+            <a href="https://github.com/DNosheZ" class="btn nav-link" id="profile-link" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="#Contact" class="btn nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header id="header">
+    <section id="welcome-section">
+      <h1 id="hi">Hi there, I'm Alejandro</h1>
+      <h3 id="reliable">Your reliable system engineer</h3>
+      <br/>
+      <h4 id="heres">And here's my responsive web design portfolio</h4>
+    </section>
+    <section id="projects">
+      <h3 id="some-projects-view">There are some of my projects</h3>
+      <hr/>
+      <div class="projects-grid">
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src="https://private-user-images.githubusercontent.com/129427891/258660657-86c5bc4b-eb27-4c4d-a4e4-3b05e9385d96.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMyODE1NDEsIm5iZiI6MTcwMzI4MTI0MSwicGF0aCI6Ii8xMjk0Mjc4OTEvMjU4NjYwNjU3LTg2YzViYzRiLWViMjctNGM0ZC1hNGU0LTNiMDVlOTM4NWQ5Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMlQyMTQwNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01OGMxZDdjOGU1N2YzOWE4MTMzNTE4Mjk5YWIxNmYzNmJiMjRhOTE4Zjg2NzJiYTQyMWE3YjY3YTQwMDk4Nzc0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vg5hfk14lrJDFW9vZaF_dq1wI7k8mAB_s0DHnMOiUxc"/>
+            <h4>
+              <span class="corc"><</span>
+              Coffee Shop Menu
+              <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src="https://private-user-images.githubusercontent.com/129427891/261826207-1a92420b-d9f9-4a66-b8b0-5d8e9500318b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMyODIxMTEsIm5iZiI6MTcwMzI4MTgxMSwicGF0aCI6Ii8xMjk0Mjc4OTEvMjYxODI2MjA3LTFhOTI0MjBiLWQ5ZjktNGE2Ni1iOGIwLTVkOGU5NTAwMzE4Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMlQyMTUwMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zN2MwMzdjYWIwNzkwZGYwZTA4MWQ3YzI1ZDdlYThhMjU0NjA1OTUyNzlhOWQ4MGNkNzI1ZDY5YjVjZGY1NmM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.YSL64C9izI8D52NSABDeqwbGsAv3QHSGVtd_19q3_3s"/>
+            <h4>
+              <span class="corc"><</span> Registration Form <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src="https://private-user-images.githubusercontent.com/129427891/268537032-f92dc3b6-26be-4a73-beec-3627ff23e7cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMyODIxMTEsIm5iZiI6MTcwMzI4MTgxMSwicGF0aCI6Ii8xMjk0Mjc4OTEvMjY4NTM3MDMyLWY5MmRjM2I2LTI2YmUtNGE3My1iZWVjLTM2MjdmZjIzZTdjZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMlQyMTUwMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNmQwNDA3MmIzZWRmY2Q0YTA1MjRjODZhMDg4NTg2ZDA5MmUwM2JjYTgzZGUzMjYxZTNmOWY4NWI3NjM4ZmExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.fUSK7V7V65EYwE0XHzW7ddAUjAjJdISezBf8xAZ91nw">
+            <h4>
+              <span class="corc"><</span>
+              Flexbox Photo Gallery
+              <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src=""/>
+            <h4>
+              <span class="corc"><</span>
+              Technical Documentation Page
+              <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src="">
+            <h4>
+              <span class="corc"><</span>
+              Tribute Page
+              <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a class="btn project" href="">
+            <img class="link-img" src="">
+            <h4>
+                <span class="corc"><</span>
+                Product Landing Page
+                <span class="corc">/></span>
+            </h4>
+          </a>
+        </div>
+      </div>
+        <a href="https://github.com/DNosheZ/ResponsiveWebDesign" class="btn btn-show-all" target="_blank">Show all ></a>
+    </section>
+    <section id="lets-work-together">
+      <div id="lwt">
+        <h2>Let's work together...</h2>
+        <h3>Your coffee with sugar or cream?</h3>
+      </div>
+      <nav id="navbar">
+        <ul class="nav-list2">
+          <li>
+            <a href="www.linkedin.com/in/alejandro-diaz-170ab7292" class="btn nav-link" target="_blank">
+              <img src=""/>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="mailto:adzprojectsby@gmail.com" class="btn nav-link" target="_blank">
+              <img src=""/>
+              Send me a email
+            </a>
+          </li>
+          <li>
+            <a href="tel:+573245869057" class="btn nav-link" data-l="tel:3245869057">
+              <img src=""/>
+              Call me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <footer></footer>
+  </body>
+</html>
