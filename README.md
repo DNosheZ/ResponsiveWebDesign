@@ -24,10 +24,6 @@ _Registration form_
 A registration form that send the recolected info to [a freeCodeCamp page](https://register-demo.freecodecamp.org).
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/1a92420b-d9f9-4a66-b8b0-5d8e9500318b)
 
-*******************************************************************************
-_Final project_
-
-
 
 *******************************************************************************
 _Flexbox cat photo gallery_
@@ -46,4 +42,29 @@ A Rothko paint based on [a HTML](https://github.com/DNosheZ/freeCodeCamp/blob/ma
 _Nutrition table for a HTML product_
 A nutrition table that can be used to give a extensive explanation about a [HTML product](https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsIndex.html), giving to it [CSS styles](https://github.com/DNosheZ/freeCodeCamp/blob/main/NutritionFactsStyles.css) to make it has a tangible alimentary good.
 ![image](https://github.com/DNosheZ/freeCodeCamp/assets/129427891/781ba20f-f5b0-4b8e-bfa6-fc958b63feac)
+
+
+*******************************************************************************
+_Interactive Documentation Page_
+Used to explain the basics abouth Python coding language, can 
+Used to explain the basis of Python coding language, can be transversalized to explain any topic needed
+![image](https://github.com/DNosheZ/ResponsiveWebDesign/assets/129427891/077f67ef-b78f-4d7d-9f60-01e9c677c18f)
+
+
+*******************************************************************************
+_Final project_
+
+
+*******************************************************************************
+_freeCodeCamp Magazine_
+A web magazine inspired in the last fCC curriculum updated info
+![image](https://github.com/DNosheZ/ResponsiveWebDesign/assets/129427891/1c5b036a-4331-4f73-a703-e5db2f799023)
+
+
+*******************************************************************************
+_Coding Classes Landing Page_
+A entire landing page for people interested in buy online courses, a great way to start a product landing page, ready to be stylized for everyone that wants to create
+a ecommerce page
+![image](https://github.com/DNosheZ/ResponsiveWebDesign/assets/129427891/9d2c8cde-3f22-4e0f-9826-5c48a9d1c323)
+
 
